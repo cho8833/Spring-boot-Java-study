@@ -1,5 +1,6 @@
 package com.example.demo;
 
+import com.example.demo.model.Member;
 import org.assertj.core.api.Assertions;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -11,7 +12,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class MemberRepositoryTest {
+public class JPAMemberRepositoryTest {
     @Autowired
     MemberRepository memberRepository;
 

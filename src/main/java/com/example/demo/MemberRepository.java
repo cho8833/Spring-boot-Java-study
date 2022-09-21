@@ -1,4 +1,5 @@
 package com.example.demo;
+import com.example.demo.model.Member;
 import org.springframework.stereotype.Repository;
 
 import javax.persistence.EntityManager;
